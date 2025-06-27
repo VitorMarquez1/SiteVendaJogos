@@ -8,41 +8,39 @@ Apresenta-se uma visão geral do que será abordado nesta parte do documento, de
 
 Foram desenvolvidas quatro personas para representar os diferentes perfis de usuários do site, auxiliando na compreensão de suas necessidades e objetivos.
 
-<br>
-
+---
 **Nome:** José
-**Idade:** 18 anos
-**Profissão:** Programador
-**Hobbies:** Jogar videogame no quarto aos finais de semana.
-**Objetivos:** Comprar jogos e itens relacionados.
-**Personalidade:** Calmo e reservado.
+* **Idade:** 18 anos
+* **Profissão:** Programador
+* **Hobbies:** Jogar videogame no quarto aos finais de semana.
+* **Objetivos:** Comprar jogos e itens relacionados.
+* **Personalidade:** Calmo e reservado.
 
 ---
-
 **Nome:** Karen
-**Idade:** 21 anos
-**Profissão:** Estagiária em uma PetShop.
-**Hobbies:** Jogar jogos de tiro competitivos nos finais de semana e acompanhar os próximos lançamentos.
-**Objetivos:** Acompanhar os lançamentos de seus jogos preferidos e receber notificações quando estiverem disponíveis.
-**Personalidade:** Calma, racional e bem-humorada.
+* **Idade:** 21 anos
+* **Profissão:** Estagiária em uma PetShop.
+* **Hobbies:** Jogar jogos de tiro competitivos nos finais de semana e acompanhar os próximos lançamentos.
+* **Objetivos:** Acompanhar os lançamentos de seus jogos preferidos e receber notificações quando estiverem disponíveis.
+* **Personalidade:** Calma, racional e bem-humorada.
 
 ---
-
 **Nome:** Gohan
-**Idade:** 24 anos
-**Profissão:** Analista de Sistema.
-**Hobbies:** Jogar RPG por duas horas todas as noites e colecionar seus jogos favoritos.
-**Objetivos:** Procurar jogos específicos de seu gosto e diferentes edições de um mesmo título.
-**Personalidade:** Direto em suas opiniões e corajoso.
+* **Idade:** 24 anos
+* **Profissão:** Analista de Sistema.
+* **Hobbies:** Jogar RPG por duas horas todas as noites e colecionar seus jogos favoritos.
+* **Objetivos:** Procurar jogos específicos de seu gosto e diferentes edições de um mesmo título.
+* **Personalidade:** Direto em suas opiniões e corajoso.
 
 ---
-
 **Nome:** Ronald
-**Idade:** 19 anos
-**Profissão:** Trabalha em um escritório.
-**Hobbies:** Jogar jogos com tema de fazenda durante o almoço e ao chegar em casa.
-**Objetivos:** Encontrar e comprar jogos que não foram lançados oficialmente no Brasil.
-**Personalidade:** Reservado e comunicativo.
+* **Idade:** 19 anos
+* **Profissão:** Trabalha em um escritório.
+* **Hobbies:** Jogar jogos com tema de fazenda durante o almoço e ao chegar em casa.
+* **Objetivos:** Encontrar e comprar jogos que não foram lançados oficialmente no Brasil.
+* **Personalidade:** Reservado e comunicativo.
+
+---
 
 ## Histórias de Usuários
 
