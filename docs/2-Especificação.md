@@ -1,54 +1,59 @@
-# Especificações Do Projeto
+# Especificações do Projeto
 
 <span style="color:red">Pré-requisitos: <a href="1-Contexto.md"> Documentação de Contexto</a></span>
 
-> Apresente uma visão geral do que será abordado nesta parte do
-> documento, enumerando as técnicas e/ou ferramentas utilizadas para
-> realizar a especificações do projeto
+Apresenta-se uma visão geral do que será abordado nesta parte do documento, detalhando as técnicas e ferramentas utilizadas para a especificação do projeto, como a criação de personas para entender o público-alvo, a formulação de histórias de usuário para guiar o desenvolvimento das funcionalidades e a definição dos requisitos técnicos e funcionais da plataforma.
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em
-se desenvolver profissionalmente através de um mestrado fora do país,
-pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está
-buscando uma agência que o ajude a encontrar universidades na Europa
-que aceitem alunos estrangeiros.
+Foram desenvolvidas quatro personas para representar os diferentes perfis de usuários do site, auxiliando na compreensão de suas necessidades e objetivos.
 
+<br>
 
-> Enumere e detalhe as personas da sua solução. Para
-> tanto, baseie-se tanto nos documentos disponibilizados na disciplina
-> e/ou nos seguintes links:
->
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-> Lembre-se que você deve ser enumerar e descrever precisamente e
-> personalizada todos os clientes ideais que sua solução almeja.
+**Nome:** José
+**Idade:** 18 anos
+**Profissão:** Programador
+**Hobbies:** Jogar videogame no quarto aos finais de semana.
+**Objetivos:** Comprar jogos e itens relacionados.
+**Personalidade:** Calmo e reservado.
+
+---
+
+**Nome:** Karen
+**Idade:** 21 anos
+**Profissão:** Estagiária em uma PetShop.
+**Hobbies:** Jogar jogos de tiro competitivos nos finais de semana e acompanhar os próximos lançamentos.
+**Objetivos:** Acompanhar os lançamentos de seus jogos preferidos e receber notificações quando estiverem disponíveis.
+**Personalidade:** Calma, racional e bem-humorada.
+
+---
+
+**Nome:** Gohan
+**Idade:** 24 anos
+**Profissão:** Analista de Sistema.
+**Hobbies:** Jogar RPG por duas horas todas as noites e colecionar seus jogos favoritos.
+**Objetivos:** Procurar jogos específicos de seu gosto e diferentes edições de um mesmo título.
+**Personalidade:** Direto em suas opiniões e corajoso.
+
+---
+
+**Nome:** Ronald
+**Idade:** 19 anos
+**Profissão:** Trabalha em um escritório.
+**Hobbies:** Jogar jogos com tema de fazenda durante o almoço e ao chegar em casa.
+**Objetivos:** Encontrar e comprar jogos que não foram lançados oficialmente no Brasil.
+**Personalidade:** Reservado e comunicativo.
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+Com base na análise das personas, foram identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-
-> Apresente aqui as histórias de usuário que são relevantes para o
-> projeto de sua solução. As Histórias de Usuário consistem em uma
-> ferramenta poderosa para a compreensão e elicitação dos requisitos
-> funcionais e não funcionais da sua aplicação. Se possível, agrupe as
-> histórias de usuário por contexto, para facilitar consultas
-> recorrentes à essa parte do documento.
->
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
+| EU COMO... `PERSONA` | QUERO/PRECISO ... `FUNCIONALIDADE` | PARA ... `MOTIVO/VALOR` |
+| :--- | :--- | :--- |
+| Cliente | Saber o valor dos produtos. | Me planejar financeiramente. |
+| Cliente | Filtrar o estilo, o preço e o console dos jogos que quero comprar. | Facilitar na busca dos jogos de interesse. |
+| Cliente | Visualizar a avaliação e a quantidade disponível de cada produto. | Saber se há produto disponível para compra e, também, sua qualidade. |
+| Cliente | Realizar um pré-cadastro no site de forma a receber notificações relevantes. | Saber informações sobre produtos de meu interesse. |
 
 ## Requisitos
 
@@ -56,50 +61,45 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
-
+| ID | Descrição do Requisito | Prioridade |
+| :--- | :--- | :--- |
+| RF-001 | O sistema deve permitir que usuários naveguem pelo catálogo de jogos por gênero, plataforma, preço e popularidade. | ALTA |
+| RF-002 | O sistema deve permitir que usuários pesquisem jogos por título, desenvolvedora ou editora. | ALTA |
+| RF-003 | O sistema deve exibir informações detalhadas sobre cada jogo, incluindo descrição, capturas de tela, vídeos, requisitos e avaliações. | ALTA |
+| RF-004 | O sistema deve permitir que usuários adicionem jogos ao carrinho de compras. | ALTA |
+| RF-005 | O sistema deve permitir que usuários criem e gerenciem suas contas (perfil, histórico de compras, lista de desejos). | ALTA |
+| RF-006 | O sistema deve permitir pagamentos com diferentes métodos (cartão de crédito, pix, etc.). | ALTA |
+| RF-007 | O sistema deve enviar confirmações de compra por e-mail aos usuários. | MÉDIA |
+| RF-008 | O sistema deve permitir que usuários façam o download dos jogos adquiridos. | ALTA |
+| RF-009 | O sistema deve permitir que usuários avaliem e comentem sobre os produtos. | MÉDIA |
+| RF-010 | O sistema deve oferecer um sistema de recomendação de jogos. | BAIXA |
+| RF-011 | O sistema deve permitir que administradores gerenciem o catálogo de produtos (cadastrar, editar, remover). | ALTA |
+| RF-012 | O sistema deve permitir a aplicação de cupons de desconto. | MÉDIA |
 
 ### Requisitos não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-
-> Com base nas Histórias de Usuário, enumere os requisitos da sua
-> solução. Classifique esses requisitos em dois grupos:
->
-> - [Requisitos Funcionais
->   (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
->   correspondem a uma funcionalidade que deve estar presente na
->   plataforma (ex: cadastro de usuário).
->
-> - [Requisitos Não Funcionais
->   (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
->   correspondem a uma característica técnica, seja de usabilidade,
->   desempenho, confiabilidade, segurança ou outro (ex: suporte a
->   dispositivos iOS e Android).
->
-> Lembre-se que cada requisito deve corresponder à uma e somente uma
-> característica alvo da sua solução. Além disso, certifique-se de que
-> todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+| ID | Descrição do Requisito | Prioridade |
+| :--- | :--- | :--- |
+| RNF-001 | O site deve ter um tempo de resposta máximo de 3 segundos para carregamento. | ALTA |
+| RNF-002 | O site deve suportar pelo menos 1000 usuários simultâneos sem perda de desempenho. | MÉDIA |
+| RNF-003 | O site deve ser compatível com os navegadores web mais recentes (Chrome, Edge, etc). | ALTA |
+| RNF-004 | O site deve ser responsivo e adaptar-se a diferentes tamanhos de tela. | ALTA |
+| RNF-005 | O site deve utilizar HTTPS para garantir a segurança das informações. | ALTA |
+| RNF-006 | Os dados dos usuários e informações de pagamento devem ser armazenados de forma segura e criptografada. | ALTA |
+| RNF-007 | O site deve ter alta disponibilidade. | MÉDIA |
+| RNF-008 | O design do site deve ser intuitivo e fácil de usar. | ALTA |
+| RNF-009 | O código do site deve ser bem documentado e de fácil manutenção. | MÉDIA |
+| RNF-010 | O desenvolvimento deve utilizar as tecnologias HTML, CSS e JavaScript. | ALTA |
+| RNF-011 | O site deve ser publicado em um ambiente de hospedagem escalável e publicamente acessível. | ALTA |
 
 ## Restrições
 
 O projeto está restrito pelos itens apresentados na tabela a seguir.
 
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-
-
-> Enumere as restrições à sua solução. Lembre-se de que as restrições
-> geralmente limitam a solução candidata.
-> 
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+| ID | Restrição |
+| :--- | :--- |
+| 01 | O projeto deverá ser entregue até o final do semestre letivo. |
+| 02 | O projeto deve ser desenvolvido utilizando exclusivamente as tecnologias front-end (HTML, CSS, JavaScript), sem a criação de um back-end próprio. A persistência de dados será simulada ou realizada através de um servidor JSON. |
+| 03 | O escopo do projeto não contempla a integração real com gateways de pagamento. A finalização da compra será simulada. |
+| 04 | O sistema de recomendação de jogos será baseado em regras simples (como gênero ou plataforma), não envolvendo algoritmos complexos de machine learning. |
+| 05 | Não haverá um painel administrativo para o "cliente" do projeto gerenciar o conteúdo. Toda a gestão de produtos será feita diretamente no código ou no arquivo `db.json`. |

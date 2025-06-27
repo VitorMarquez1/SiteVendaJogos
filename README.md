@@ -1,19 +1,21 @@
 # Informações do Projeto
-`TÍTULO DO PROJETO`  
+`Grupo 6: Site Venda de Jogos (GameStore)`  
 
 Trabalho Interdisciplinar - Aplicacões Web
 
-`CURSO`: 
+`CURSO`: Bachareldo em Sistemas de Informação
 
-`SEMESTRE:`
-
-`OBJETIVO ODS:` > Inclua os numeros e a descrição do(s) objetivo(s) ODS da ONU que o Projeto vai atender. 
+`SEMESTRE:` 1º período (2025/1)
 
 ## Participantes
 
 Os membros do grupo são: 
-- Fulano da Silva
-- Ciclano Albuquerque
+- Augusto Araujo Cerdeira
+- João Lucas Duarte Justo
+- João Pedro de Aguiar Dias
+- Luis Augusto Cordeiro Louback Claudino
+- Sofia Cristina Santana de Souza
+- Vitor Oliveira Marquez
 
 > Inclua a lista dos membros da equipe com seus nomes completos.
 
