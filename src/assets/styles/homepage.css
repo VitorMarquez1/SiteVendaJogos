@@ -1,0 +1,135 @@
+/* --- PAINEL DE FILTROS MODERNIZADO --- */
+
+.search-filter-section {
+    background-color: var(--surface-color);
+    padding: 2rem;
+    border-radius: 12px;
+    margin-bottom: 3rem;
+    border: 1px solid var(--light-gray);
+}
+
+.search-filter-section h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: var(--text-color);
+}
+
+/* Usando CSS Grid para um layout mais robusto e responsivo */
+.filters {
+    display: grid;
+    /* Cria colunas que se ajustam automaticamente ao espaço disponível */
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+}
+
+/* Cada grupo de filtro agora é um bloco vertical */
+.filter-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.filter-group label {
+    margin-bottom: 0.5rem;
+    font-size: 0.9em;
+    font-weight: normal;
+    color: #ccc;
+    text-align: left;
+}
+
+/* Estilo unificado e moderno para inputs e selects */
+.filter-group input,
+.filter-group select {
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #444;
+    background-color: #2a2a2e;
+    color: var(--text-color);
+    font-size: 1rem;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.filter-group input:focus,
+.filter-group select:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px rgba(106, 17, 203, 0.4);
+}
+
+/* --- GRID DE PRODUTOS (Sem alterações) --- */
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.product-card {
+    background-color: var(--surface-color);
+    border: 1px solid var(--light-gray);
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+.product-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.product-card-body {
+    padding: 1rem;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.product-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.product-price {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: var(--success-color);
+    margin: 0.5rem 0;
+}
+
+.product-card a {
+    margin-top: 1rem;
+}
+
+/* --- ESTILOS DO CARROSSEL (Sem alterações) --- */
+
+#featured-carousel .carousel-inner {
+    border-radius: 8px;
+    max-height: 50vh;
+}
+
+#featured-carousel .carousel-item img {
+    object-fit: cover;
+    height: 50vh;
+    filter: brightness(0.7);
+}
+
+#featured-carousel .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+#featured-carousel a {
+    text-decoration: none;
+    color: inherit;
+}
