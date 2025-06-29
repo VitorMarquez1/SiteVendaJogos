@@ -1,6 +1,6 @@
 # Planejamento do Projeto
 
-Sehue abaixo o gerenciamento das tarefas de implementação do projeto.
+Segue abaixo o gerenciamento das tarefas de implementação do projeto.
 
 ## Divisão de Papéis
 
@@ -65,8 +65,8 @@ Atualizado em: 30/06/2025
 
 | Responsável | Tarefa/Requisito | Iniciado em | Prazo | Status | Terminado em |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| João Pedro de Aguiar Dias | Apresentação | 27/06/2025 | 30/06/2025 | ✔️ | 30/06/2025 |
-| Sofia Cristina Santana de Souza | Documentação do Projeto | 27/06/2025 | 30/06/2025 | ✔️ | 30/06/2025 |
+| João Pedro de Aguiar Dias e Luis Augusto Cordeiro Louback Claudino | Apresentação | 27/06/2025 | 30/06/2025 | ✔️ | 30/06/2025 |
+| Sofia Cristina Santana de Souza e Augusto Araujo Cerdeira| Documentação do Projeto | 27/06/2025 | 30/06/2025 | ✔️ | 30/06/2025 |
 | João Lucas Duarte Justo | Vídeo | 27/06/2025 | 30/06/2025 | ✔️ | 30/06/2025 |
 | Vitor Oliveira Marquez | Aplicação e Repositório GitHub | 27/06/2025 | 30/06/2025 | ✔️ | 30/06/2025 |
 
