@@ -3,27 +3,20 @@
 
 ## User Flow
 
-![alt text](<Fluxo de Usuário.png>)
+![Fluxo de Usuário](images/Fluxo-de-Usuario.png)
 
 ## Wireframes
 
-![alt text](<Homepage, Navegação Principal, Catálogos, Busca e Filtro.png>)
-Homepage, Navegação Principal, Catálogos, Busca e Filtro
+![Homepage, Navegação Principal, Catálogos, Busca e Filtro](images/Homepage-NavegacaoPrincipal-Catalogos-Busca-e-Filtro.png)
 
-![alt text](<Cadastro e Login.png>)
-Cadastro e Login
+![Cadastro e Login](images/Cadastro-e-Login.png)
 
-![alt text](<Página de Detalhes do Produto e Sistema de Avaliação e Comentários.png>)
-Página de Detalhes do Produto e Sistema de Avaliação e Comentários
+![Página de Detalhes do Produto e Sistema de Avaliação e Comentários](images/Pagina-de-Detalhes-do-Produto-e-Sistema-de-Avaliacao-e-Comentarios.png)
 
-![alt text](<Carrinho de Compras e Cupom de Desconto.png>)
-Carrinho de Compras e Cupom de Desconto
+![Carrinho de Compras e Cupom de Desconto](images/Carrinho-de-Compras-e-Cupom-de-Desconto.png)
 
-![alt text](<Fluxo de Checkout e Confirmação de Compra.png>)
-Fluxo de Checkout e Confirmação de Compra
+![Fluxo de Checkout e Confirmação de Compra](images/Fluxo-de-Checkout-e-Confirmacao-de-Compra.png)
 
-![alt text](<Lista de Desejos e Histórico de Compras.png>)
-Lista de Desejos e Histórico de Compras
+![Lista de Desejos e Histórico de Compras](images/Lista-de-Desejos-e-Historico-de-Compras.png)
 
-![alt text](<Gerenciamento de Produtos.png>)
-Gerenciamento de Produtos
+![Gerenciamento de Produtos](images/Gerenciamento-de-Produtos.png)
