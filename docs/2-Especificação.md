@@ -1,8 +1,11 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Contexto.md"> Documentação de Contexto</a></span>
-
-Apresenta-se uma visão geral do que será abordado nesta parte do documento, detalhando as técnicas e ferramentas utilizadas para a especificação do projeto, como a criação de personas para entender o público-alvo, a formulação de histórias de usuário para guiar o desenvolvimento das funcionalidades e a definição dos requisitos técnicos e funcionais da plataforma.
+Abaixo serão apresentados as personas, as histórias de usuários, os requisitos do projeto e 
+as restrições. A criação de personas possibilita o maior entendimento do cliente, a identificação de 
+possíveis problemas e o melhor alinhamento da missão. As histórias de usuários refletem 
+suas necessidades. Os requisitos do projeto descrevem o que será implementado no 
+software. E as restrições são limitações ou condições impostas ao projeto sobre as 
+quais a equipe de desenvolvimento não tem controle.
 
 ## Personas
 
@@ -100,4 +103,4 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 | 02 | O projeto deve ser desenvolvido utilizando exclusivamente as tecnologias front-end (HTML, CSS, JavaScript), sem a criação de um back-end próprio. A persistência de dados será simulada ou realizada através de um servidor JSON. |
 | 03 | O escopo do projeto não contempla a integração real com gateways de pagamento. A finalização da compra será simulada. |
 | 04 | O sistema de recomendação de jogos será baseado em regras simples (como gênero ou plataforma), não envolvendo algoritmos complexos de machine learning. |
-| 05 | Não haverá um painel administrativo para o "cliente" do projeto gerenciar o conteúdo. Toda a gestão de produtos será feita diretamente no código ou no arquivo `db.json`. |
+| 05 | A gestão de produtos é realizada através da interface de CRUD, acessível apenas pelo usuário "Administrador". Não está no escopo a criação de um painel de gerenciamento simplificado para um "cliente final" ou "dono de loja" sem perfil técnico. |
