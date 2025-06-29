@@ -1,5 +1,7 @@
 # Planejamento do Projeto
 
+Sehue abaixo o gerenciamento das tarefas de implementação do projeto.
+
 ## Divisão de Papéis
 
 ### Sprint 1
@@ -21,6 +23,8 @@
 - Testes: Sofia Cristina Santana de Souza e Luis Augusto Cordeiro Louback Claudino
 
 ## Quadro de tarefas
+
+Segue abaixo a divisão de tarefas entre os membros do grupo e o acompanhamento da execução.
 
 ### Sprint 1
 
@@ -73,6 +77,8 @@ Legenda:
 - ❌: não iniciado
 
 ## Ferramentas
+
+Segue abaixo as ferramentas empregadas no desenvolvimento do projeto e a justificativa de suas escolhas.
 
 | Ferramenta | Justificativa |
 | :--- | :--- |

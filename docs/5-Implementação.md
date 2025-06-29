@@ -201,38 +201,5 @@ O diagrama abaixo ilustra a interação do usuário com o sistema e as tecnologi
 
 Essa arquitetura permite um desenvolvimento rápido, com baixo custo de hospedagem e manutenção, ao mesmo tempo que oferece uma experiência rica e interativa para o usuário final.
 
-# Interface do Sistema
-
-
-_Visão geral da interação do usuário por meio das telas do sistema. Apresente as principais interfaces da plataforma._
-
-## Tela principal do sistema
-
-_Descrição da tela principal do sistema._
-
-[`Tela principal do sistema`](images/)
-
-
-## Telas do requisito 1
-
-_Descrição da tela relativa à atividade 1._
-
-[`Tela da atividade 1`](images/)
-
-_Descrição da tela relativa à atividade 2._
-
-[`Tela da atividade 2`](images/)
-
-
-## Telas do requisito 2
-
-_Descrição da tela relativa à atividade 1._
-
-[`Tela da atividade 1`](images/)
-
-_Descrição da tela relativa à atividade 2._
-
-[`Tela da atividade 2`](images/)
-
 
 
