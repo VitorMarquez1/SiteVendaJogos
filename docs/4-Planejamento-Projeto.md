@@ -1,7 +1,5 @@
 # Planejamento do Projeto
 
-> Aqui será feito o gerenciamento das tarefas de implementação do projeto.
-
 ## Divisão de Papéis
 
 ### Sprint 1
