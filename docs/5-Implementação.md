@@ -4,11 +4,12 @@
 
 Para o desenvolvimento do nosso site de venda de jogos e acessórios, selecionamos um conjunto de tecnologias e ferramentas modernas e eficientes, focadas em agilidade, robustez e colaboração. A escolha de cada componente foi pensada para atender aos requisitos do projeto e facilitar o ciclo de vida do desenvolvimento.
 
-### Linguagens de Programação
+### Linguagens e Estrutura de Dados
 
 * **HTML5:** Utilizado para a estruturação semântica de todas as páginas do site, garantindo uma base sólida, acessível e bem interpretada pelos navegadores e mecanismos de busca.
 * **CSS3:** Empregado para a estilização completa da interface, incluindo layouts, cores, fontes e animações. O uso do CSS3, combinado com o Bootstrap, permite a criação de um design visualmente atraente e consistente.
-* **JavaScript (ES6+):** Essencial para adicionar interatividade e dinamismo à experiência do usuário. O JavaScript é responsável pela manipulação de eventos, validação de formulários no lado do cliente, comunicação assíncrona (se necessária) e a lógica de funcionamento de componentes como o carrinho de compras e filtros de busca.
+* **JavaScript (ES6+):** Essencial para adicionar interatividade e dinamismo à experiência do usuário. O JavaScript é responsável por ler e manipular os dados em JSON, gerenciar eventos, validar formulários e atualizar a interface dinamicamente.
+* **JSON (JavaScript Object Notation):** Utilizado como o formato padrão para estruturar os dados da aplicação, como o catálogo de produtos, informações de usuários e itens do carrinho. Por ser leve e de fácil interpretação pelo JavaScript, o JSON funciona como uma base de dados local no lado do cliente.
 
 ### Frameworks e Bibliotecas
 
@@ -188,18 +189,23 @@ O sistema GameStore foi projetado com foco em:
 
 ## Arquitetura da Solução
 
-A arquitetura da solução foi projetada para ser simples, escalável e focada no cliente. Ela se baseia em uma arquitetura primariamente **Client-Side (Lado do Cliente)**, onde a lógica de apresentação e interação é executada diretamente no navegador do usuário.
+A arquitetura da solução foi projetada para ser simples, escalável e focada no cliente. Ela se baseia em uma arquitetura primariamente **Client-Side (Lado do Cliente)**, onde a lógica de apresentação e a manipulação de dados são executadas diretamente no navegador do usuário.
 
 O diagrama abaixo ilustra a interação do usuário com o sistema e as tecnologias envolvidas em cada etapa:
 
-![Arquitetura da Solução](images/Arquitetura-de-solucao.png)
+![Arquitetura da Solução](images/Diagrama-de-arquitetura.png)
 
 **Descrição dos Componentes:**
 
 1.  **Cliente (Navegador):** É a camada de apresentação, onde o usuário interage com o site. O navegador renderiza os arquivos HTML, aplica os estilos do CSS e executa os scripts JavaScript para criar uma experiência dinâmica. Toda a interface responsiva é garantida pelo framework Bootstrap.
-2.  **Repositório de Código (GitHub):** O GitHub Pages pode ser utilizado para a hospedagem do site estático (front-end), disponibilizando a aplicação de forma contínua e integrada ao nosso fluxo de desenvolvimento. Para funcionalidades como o envio de e-mail de confirmação de compra, planejado na Sprint 2, a arquitetura pode ser estendida para consumir um serviço de backend simples (*serverless function* ou um microserviço) que executa essa tarefa específica, mantendo o front-end desacoplado.
 
-Essa arquitetura permite um desenvolvimento rápido, com baixo custo de hospedagem e manutenção, ao mesmo tempo que oferece uma experiência rica e interativa para o usuário final.
+2.  **Dados da Aplicação (JSON & Local Storage):** Como a aplicação não possui um back-end tradicional, os dados são gerenciados no lado do cliente.
+    * **Arquivos JSON:** O catálogo de produtos (jogos, acessórios) é armazenado em arquivos `.json`. O JavaScript lê esses arquivos para exibir dinamicamente o conteúdo nas páginas da loja.
+    * **Local Storage:** Para dados que precisam persistir na sessão do usuário, como os itens do carrinho de compras e a lista de desejos, utilizamos o *Local Storage* do navegador.
+
+3.  **Hospedagem (GitHub Pages):** Todos os arquivos estáticos da aplicação (HTML, CSS, JS, JSON, imagens) são hospedados em uma plataforma como o GitHub Pages. Ela é responsável por disponibilizar o site de forma pública e contínua, integrada ao nosso fluxo de desenvolvimento no repositório.
+
+Essa arquitetura permite um desenvolvimento rápido e com baixo custo de hospedagem, ao mesmo tempo que oferece uma experiência rica e interativa para o usuário final, sendo ideal para o escopo definido no projeto.
 
 
 
