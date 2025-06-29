@@ -74,11 +74,10 @@ Legenda:
 
 ## Ferramentas
 
-As ferramentas empregadas no projeto são:
-
-- **Editor de código:** Visual Studio Code
-- **Ferramentas de diagramação:** Figma
-- **Frameworks:** Bootstrap
-- **Outras ferramentas externas:**
-    - Git & GitHub para controle de versão.
-    - Trello para gerenciamento de tarefas.
+| Ferramenta | Justificativa |
+| :--- | :--- |
+| **Visual Studio Code** | Escolhido como editor de código principal por sua leveza, versatilidade e pelo ecossistema robusto de extensões que suportam o desenvolvimento web (HTML, CSS, JavaScript), além de oferecer integração nativa com o Git, facilitando o controle de versão. |
+| **Figma** | Utilizado para a criação dos protótipos de baixa e alta fidelidade (wireframes), bem como para o desenho do fluxo de usuário (User Flow). Sua natureza colaborativa baseada na nuvem permitiu que a equipe de design e desenvolvimento trabalhasse de forma síncrona, agilizando a validação e o refinamento das interfaces. |
+| **Bootstrap** | Adotado como framework front-end para acelerar o desenvolvimento de uma interface responsiva e mobile-first. A utilização de sua biblioteca de componentes pré-estilizados (como grids, formulários e botões) garantiu consistência visual e reduziu o tempo de codificação, permitindo que a equipe focasse nas funcionalidades principais. |
+| **Git & GitHub** | O Git foi empregado para o controle de versão do código-fonte, permitindo rastrear todas as alterações e gerenciar diferentes branches de desenvolvimento. O GitHub serviu como repositório remoto central, facilitando a colaboração, a revisão de código (pull requests) e o gerenciamento geral do projeto de forma distribuída e segura. |
+| **Trello** | Selecionado como a ferramenta de gerenciamento de projetos para organizar as tarefas das Sprints. Seu formato visual de quadros, listas e cartões (Kanban) foi ideal para acompanhar o progresso de cada atividade (a fazer, em andamento, concluído), garantindo transparência e alinhamento com a metodologia Scrum adotada pela equipe. |
