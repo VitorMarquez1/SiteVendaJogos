@@ -10,7 +10,7 @@
 ![alt text](<Homepage, Navegação Principal, Catálogos, Busca e Filtro.png>)
 Homepage, Navegação Principal, Catálogos, Busca e Filtro
 
-![alt text](<Cadastro e Login-1.png>)
+![alt text](<Cadastro e Login.png>)
 Cadastro e Login
 
 ![alt text](<Página de Detalhes do Produto e Sistema de Avaliação e Comentários.png>)
