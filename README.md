@@ -3,7 +3,7 @@
 
 Trabalho Interdisciplinar - Aplicacões Web
 
-`CURSO`: Bachareldo em Sistemas de Informação
+`CURSO`: Bacharelado em Sistemas de Informação
 
 `SEMESTRE:` 1º período (2025/1)
 
@@ -17,8 +17,6 @@ Os membros do grupo são:
 - Sofia Cristina Santana de Souza
 - Vitor Oliveira Marquez
 
-> Inclua a lista dos membros da equipe com seus nomes completos.
-
 # Estrutura do Projeto
 
 1. [Contexto](./docs/1-Contexto.md)
@@ -28,8 +26,6 @@ Os membros do grupo são:
 5. [Implementação](./docs/5-Implementação.md)
 6. [Referências](./docs/6-Referências.md)
 7. [Apresentação do trabalho](./docs/apresentacao/README.md) 
-
-
 
 ## Pasta docs
 
