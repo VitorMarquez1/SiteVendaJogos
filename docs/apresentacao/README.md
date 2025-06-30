@@ -21,4 +21,10 @@ Coloque aqui os slides da apresentação
 
 ## Vídeo
 
-No caso de apresentação gravada, insira aqui o link do vídeo de apresentação.
+## Demonstração do Projeto
+
+Assista a uma demonstração do nosso projeto em ação!
+
+[![Demonstração em GIF do Projeto](docs/images/GIF.gif)](docs/videos/demonstracao-do-projeto.mp4)
+
+**[Clique aqui para baixar o vídeo completo (demonstracao-do-projeto.mp4)](docs/videos/demonstracao-do-projeto.mp4)**
