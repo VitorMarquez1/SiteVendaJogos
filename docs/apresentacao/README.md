@@ -23,6 +23,6 @@ Coloque aqui os slides da apresentação
 
 Assista a uma demonstração do nosso projeto!
 
-[![Demonstração em GIF do Projeto](../images/demo.gif)](videos/demonstracao-do-projeto.mp4)
+[![Demonstração em GIF do Projeto](docs/images/demo.gif)](https://github.com/VitorMarquez1/SiteVendaJogos/raw/refs/heads/main/docs/apresentacao/videos/demonstracao-do-projeto.mp4)
 
-**[Clique aqui para baixar o vídeo completo](videos/demonstracao-do-projeto.mp4)**
+**[Clique aqui para baixar o vídeo completo (demonstracao-do-projeto.mp4)](https://github.com/VitorMarquez1/SiteVendaJogos/raw/refs/heads/main/docs/apresentacao/videos/demonstracao-do-projeto.mp4)**
