@@ -21,10 +21,8 @@ Coloque aqui os slides da apresentação
 
 ## Vídeo
 
-## Demonstração do Projeto
+Assista a uma demonstração do nosso projeto!
 
-Assista a uma demonstração do nosso projeto em ação!
+[![Demonstração em GIF do Projeto](docs/images/demo.gif)](docs/videos/demonstracao-do-projeto.mp4)
 
-[![Demonstração em GIF do Projeto](docs/images/GIF.gif)](docs/apresentacao/demonstracao-do-projeto.mp4)
-
-**[Clique aqui para baixar o vídeo completo (demonstracao-do-projeto.mp4)](docs/apresentacao/demonstracao-do-projeto.mp4)**
+**[Clique aqui para baixar o vídeo completo (demonstracao-do-projeto.mp4)](docs/videos/demonstracao-do-projeto.mp4)**
